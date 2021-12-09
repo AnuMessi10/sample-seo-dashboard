@@ -1,10 +1,11 @@
 import React from 'react'
 import ListElement from './ListElement'
+import logo from '../img/logo.png'
 
 export default function Sidebar() {
     return (
         <div className = "sidebar">
-            <img src="https://psyber.co/wp-content/uploads/2021/03/Psyber-Technologies_logo.png" alt="Psyber_Logo" />
+            <img src={logo} alt="Psyber_Logo" />
             <div style = {{textAlign: 'center'}}>
                 <img src="https://static.vecteezy.com/system/resources/previews/001/036/943/non_2x/young-man-in-office-working-on-laptop-computer-and-phone-photo.jpg" style = {{height: "175px", width: "225px"}} alt="" />
                 <strong>John Winston</strong>
